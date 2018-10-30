@@ -1,7 +1,6 @@
-import json
-import datetime
-
-
+#import json
+#import datetime
+'''
 def handler(event, context):
     data = {
         'output': 'Hello World',
@@ -10,3 +9,8 @@ def handler(event, context):
     return {'statusCode': 200,
             'body': json.dumps(data),
             'headers': {'Content-Type': 'application/json'}}
+
+'''
+
+print(" Welcome to python which is deployed via codestar")
+
